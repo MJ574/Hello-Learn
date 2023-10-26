@@ -13,3 +13,10 @@ def tail_recur(n:int,res:int)-> int:
         return res
     return tail_recur(n-1,res+n)
 # 尾递归：求和操作只在递的过程中进行，归的过程只需要层层返回
+def fib(n:int)->int:
+    if n==1:
+        return 0
+    if n==2:
+        return 1
+    res= fib(n-1)+fib(n-2)
+    return res

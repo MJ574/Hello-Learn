@@ -13,3 +13,6 @@ result4=recursion.recur(b)#普通递归
 print("累计求和值：",result4)
 result5=recursion.tail_recur(b,0)  #尾递归
 print("累计求和值（尾递归）",result5)
+# 递归树，递归的要素是要有终止条件和每层的递归公式
+result6=recursion.fib(b)
+print("斐波那契数列的第n个值是:",result6)
